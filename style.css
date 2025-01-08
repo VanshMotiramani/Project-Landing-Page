@@ -198,6 +198,17 @@ body {
     height: 32px;
     justify-content: center;
     align-items: center;
+    font-weight: bold;
+}
+
+.footer {
+    display: flex;
+    margin: 0;
+    padding: 8px;
+    justify-content: center;
+    align-items: center;
+    color: #E5E7EB;
+    font-size: 12px;
 }
 /* .action .button {
     background-color: #3882f6;
