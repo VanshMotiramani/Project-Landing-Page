@@ -159,6 +159,53 @@ body {
     font-size: 24px;
     font-weight: 900;
 }
+
+.action {
+    margin: 5em 10em;
+    display: flex;
+    flex: 1;
+    background-color: #3882f6;
+    padding: 3em 5em;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+    border-radius: 10px;
+}
+
+
+
+.action .title {
+    font-size: 24px;
+    font-weight: 900;
+    color: #f9faf8;
+    margin: 0;
+}
+
+.action .subtitle {
+    margin: 0;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.action button {
+    color: #f9faf8;
+    background: transparent;
+    text-align: center;
+    border-width: 3px;
+    border-color: #f9faf8;
+    border-radius: 5px;
+    width: 100px;
+    height: 32px;
+    justify-content: center;
+    align-items: center;
+}
+/* .action .button {
+    background-color: #3882f6;
+    tecolor: #f9faf8;
+    border: #f9faf8;
+    border-radius: 10px;
+    
+} */
 /* .quote {
     display: flex;
     background-color: #E5E7EB;
